@@ -1,0 +1,516 @@
+/* ******************************************** */
+/* Navbar Section */
+/* ******************************************** */
+.nav-container {
+  background-color: #fee000;
+  padding: 1.5% 20%;
+}
+.nav-container h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 0.8;
+  margin-top: 5%;
+}
+.nav-container p {
+  font-family: "Arial";
+  font-size: 14px;
+}
+.menu-item {
+  float: right;
+  height: 50px;
+  width: 50px;
+  margin-top: 6%;
+  padding: 3%;
+  background-color: #000000;
+  color: #fee000;
+  cursor: pointer;
+}
+.dropdown-menu-111 {
+  background-color: #000000;
+  border-radius: 0 !important;
+  position: absolute;
+  top: 60%;
+  left: 31%;
+  margin: 6% 0 0 8.7%;
+  padding: 8% 0;
+}
+.dropdown-menu-111 ul {
+  list-style: none;
+}
+.smooth-link {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Arial";
+  text-decoration: underline;
+  color: #fee000;
+}
+.smooth-link:hover {
+  color: #fee000;
+}
+/* ******************************************** */
+/* Login Section */
+/* ******************************************** */
+
+.login-card {
+  width: 25rem;
+  border: 6px solid #fee000;
+  padding: 4% 8%;
+  position: absolute;
+  margin-top: 45%;
+  right: 80%;
+}
+.login-card h1 {
+  font-family: "Arial";
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+}
+.login-input {
+  margin: 6% 0;
+  border: none !important;
+}
+.btn-otp {
+  background-color: #fee000;
+  color: #000;
+  margin-top: 4%;
+  padding: 6% 0;
+  border-color: #fee000;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.btn-otp:hover {
+  background-color: #fee000;
+  color: #000000;
+  border-color: #fee000;
+}
+.login-icon {
+  margin-top: 10%;
+  line-height: 0.4;
+}
+/* ******************************************** */
+/* Hero Image Section */
+/* ******************************************** */
+
+.image-container {
+  width: 100%;
+  height: 389px;
+  left: 0px;
+  background-image: url(https://s4.scoopwhoop.com/Unscripted/featured.jpeg);
+  background-position: center;
+}
+.center-container {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.heading-container {
+  width: 100%;
+  max-width: 838px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.center-container h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: -0.045em;
+  color: #ffffff;
+  max-width: 600px;
+}
+.center-container h1 span {
+  color: #fee000;
+}
+
+/* ******************************************** */
+/* Plan Section */
+/* ******************************************** */
+.plan {
+  width: 64%;
+  margin: 2% auto;
+}
+.plan-para p {
+  font-size: 22px;
+  font-family: Arial;
+  font-weight: normal;
+  line-height: 161%;
+  color: #000000;
+  margin-top: 30px;
+}
+.plan-card h1 {
+  width: 70%;
+  font-size: 36px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.plan-icon {
+  position: relative;
+  /* clear: none; */
+  /* float: right; */
+}
+.plan-circle {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bolder;
+  top: 0;
+  left: 80%;
+  padding: 0%;
+}
+.plan-checked {
+  position: absolute;
+  font-size: 40px;
+  top: 0;
+  left: 80%;
+}
+
+.checked-card {
+  width: 20rem;
+  height: 12rem;
+  border: 6px solid #000;
+  border-radius: 10px;
+}
+.unchecked-card {
+  width: 20rem;
+  height: 12rem;
+  /* background-color: #fff; */
+}
+
+/* ******************************************** */
+/* Support Section */
+/* ******************************************** */
+.support {
+  width: 64%;
+}
+.support h1 {
+  width: 70%;
+  font-size: 36px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.support-card {
+  border: 3px dashed #fee000;
+  border-radius: 8px;
+  margin-bottom: 15%;
+}
+.support-title {
+  font-size: 18px;
+  text-decoration: underline;
+  padding: 20% 0;
+}
+.support-footer {
+  background-color: #fee000;
+}
+.support-text {
+  color: #000;
+  font-size: 14px;
+  font-family: "Arial";
+}
+.btn-pay {
+  width: 90%;
+  margin-top: 3%;
+  padding: 2% 0;
+  background-color: #fee000;
+  color: #000;
+  letter-spacing: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Arial";
+  border-radius: 7px;
+  border-color: #fee000;
+}
+.btn-pay:hover {
+  border-color: #fee000;
+  background-color: #fee000;
+  color: #000000;
+}
+.below-btn-text {
+  font-size: 14px;
+  color: #b9b9b9;
+  font-family: "Arial";
+  margin: 4% 0 2% 0;
+}
+.learn-more {
+  font-size: 18px;
+  color: #000;
+  font-style: normal;
+  font-family: "Arial";
+}
+.know-more {
+  color: #fee000;
+  line-height: 0.4;
+  text-decoration: underline;
+}
+.know-more:hover {
+  color: #fee000;
+}
+/* ******************************************** */
+/* About & Mission Section */
+/* ******************************************** */
+
+.about-mission {
+  width: 64%;
+  margin: 2% auto;
+}
+.about h1 {
+  font-family: "Arial";
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 18px;
+  font-family: "Arial";
+  font-weight: normal;
+}
+.mission h1 {
+  font-family: "Arial";
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.mission p {
+  font-size: 18px;
+  font-family: "Arial";
+  font-weight: normal;
+}
+
+/* ******************************************** */
+/* Team Section */
+/* ******************************************** */
+.team {
+  width: 64%;
+  margin: 2% auto;
+}
+.team h1 {
+  font-size: 36px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.team-card {
+  margin-left: -15%;
+  border: none;
+  width: 18rem;
+}
+.team-img {
+  height: 75%;
+  width: 75%;
+  margin: 0 auto;
+}
+.team-title {
+  text-align: center;
+  font-size: 21px;
+  font-family: "Arial";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ******************************************** */
+/* Team Details */
+/* ******************************************** */
+.team-details-card {
+  width: 40%;
+  padding: 3%;
+  background-color: #000000;
+  position: fixed;
+  left: 32%;
+  top: 2%;
+  z-index: 2;
+}
+.team-details-card img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 5%;
+}
+.team-details-card h4 {
+  font-size: 21px;
+  text-decoration: underline;
+  color: #fee000;
+  text-align: left;
+  margin-bottom: 5%;
+}
+.close-btn {
+  background-color: #fee000;
+  color: #000;
+  position: absolute;
+  left: 87.5%;
+  top: 0%;
+  font-size: 50px;
+  cursor: pointer;
+}
+.team-details-card p {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+/* ******************************************** */
+/* FAQ Section */
+/* ******************************************** */
+.faq {
+  width: 64%;
+  margin: 2% auto;
+}
+.faq h1 {
+  font-size: 36px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.faq h5 {
+  font-size: 18px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.faq p {
+  font-size: 14px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  color: #737373;
+  margin-bottom: 20px;
+}
+/* ************************************** */
+/* Footer Section */
+/* ************************************** */
+
+.footer-list {
+  background-color: #fee000;
+  display: flex;
+  align-items: center;
+  padding: 1% 19%;
+  /* margin: auto 0; */
+}
+.footer-list p {
+  align-items: center;
+  font-size: 20px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #000000;
+  margin: 1% 0;
+}
+.footer-list ul {
+  align-items: center;
+  list-style: none;
+  margin: 1% 0;
+}
+.footer-list li {
+  display: inline;
+  font-size: 24px;
+  color: #000000;
+  cursor: pointer;
+}
+.footer-bottom {
+  background-color: #000000;
+  color: #fee000;
+  padding: 1% 0;
+}
+.footer-logo {
+  padding-left: 19%;
+}
+.footer-logo h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  line-height: 0.6;
+  margin-top: 15px;
+}
+.footer-logo h6 {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+.footer-logo p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 0.3;
+}
+.footer-links p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 0.5;
+  font-family: "Arial";
+  margin-top: 15px;
+}
+
+/* ****************************************************************** */
+/* MEDIA QUERIES */
+/* ********************************************************************* */
+
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: lightblue;
+  } */
+  .nav-container {
+    background-color: #fee000;
+    padding: 1% 8%;
+  }
+  .center-container h1 {
+    margin: 0 6%;
+  }
+  .dropdown-menu-111 {
+    top: 65%;
+    left: -40%;
+  }
+  .login-card {
+    width: 25rem;
+    border: 6px solid #fee000;
+    padding: 4% 8%;
+    position: absolute;
+    margin-top: 100%;
+    right: -70%;
+    z-index: 3;
+  }
+  .plan {
+    width: 90%;
+    margin: 2% auto;
+  }
+  .support {
+    width: 90%;
+  }
+  .about-mission {
+    width: 90%;
+    margin: 2% auto;
+  }
+  .team {
+    width: 90%;
+    margin: 2% auto;
+  }
+  .team-card {
+    /* margin-left: -15%; */
+    border: none;
+    width: 12rem;
+  }
+  .team-details-card {
+    left: 3%;
+  }
+  .faq {
+    width: 90%;
+    margin: 2% auto;
+  }
+  .footer-list {
+    padding: 1% 8%;
+  }
+  .footer-logo {
+    padding-left: 8%;
+  }
+  .footer-links p {
+    text-align: left;
+    padding-left: 4%;
+  }
+}
